@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Family">
+  <defs>
+    <linearGradient id="purple" x1=".18" y1="0" x2=".82" y2="1"><stop stop-color="#9B70FF"/><stop offset=".48" stop-color="#6D35DF"/><stop offset="1" stop-color="#3B107F"/></linearGradient>
+    <linearGradient id="purpleBody" x1=".2" y1="0" x2=".72" y2="1"><stop stop-color="#8752F2"/><stop offset=".55" stop-color="#5B25C2"/><stop offset="1" stop-color="#35106F"/></linearGradient>
+    <linearGradient id="gold" x1=".15" y1="0" x2=".85" y2="1"><stop stop-color="#FFF079"/><stop offset=".42" stop-color="#FFD83F"/><stop offset="1" stop-color="#E9A400"/></linearGradient>
+    <linearGradient id="goldBody" x1=".2" y1="0" x2=".75" y2="1"><stop stop-color="#FFE65C"/><stop offset=".55" stop-color="#F7C51C"/><stop offset="1" stop-color="#D68D00"/></linearGradient>
+    <filter id="shadow" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="6" stdDeviation="4.5" flood-color="#311064" flood-opacity=".25"/></filter>
+    <filter id="smallShadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="3" stdDeviation="2.4" flood-color="#351078" flood-opacity=".22"/></filter>
+  </defs>
+  <ellipse cx="64" cy="108" rx="51" ry="8" fill="#3D176F" opacity=".12"/>
+  <g filter="url(#shadow)">
+    <path d="M27 105c1-31 7-51 19-51s18 20 19 51c-10 5-28 5-38 0z" fill="url(#purpleBody)"/>
+    <circle cx="46" cy="33" r="17" fill="url(#purple)"/>
+    <ellipse cx="40" cy="26" rx="7" ry="4" fill="#fff" opacity=".25" transform="rotate(-24 40 26)"/>
+    <path d="M34 72c4-8 9-11 16-11" fill="none" stroke="#B69BFF" stroke-width="3" stroke-linecap="round" opacity=".32"/>
+    <path d="M65 105c1-31 7-51 18-51 13 0 19 20 20 51-11 5-28 5-38 0z" fill="url(#goldBody)"/>
+    <circle cx="83" cy="33" r="17" fill="url(#gold)"/>
+    <ellipse cx="77" cy="26" rx="7" ry="4" fill="#fff" opacity=".4" transform="rotate(-22 77 26)"/>
+    <path d="M72 72c5-8 10-11 17-11" fill="none" stroke="#FFF2A1" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+  </g>
+  <g filter="url(#smallShadow)">
+    <path d="M6 106c1-21 6-34 17-34s16 13 17 34c-9 4-25 4-34 0z" fill="url(#purpleBody)"/>
+    <circle cx="23" cy="59" r="11" fill="url(#purple)"/>
+    <ellipse cx="19" cy="55" rx="4" ry="2.2" fill="#fff" opacity=".27" transform="rotate(-25 19 55)"/>
+    <path d="M91 106c1-21 6-34 17-34s16 13 17 34c-9 4-25 4-34 0z" fill="url(#goldBody)"/>
+    <circle cx="108" cy="59" r="11" fill="url(#gold)"/>
+    <ellipse cx="104" cy="55" rx="4" ry="2.2" fill="#fff" opacity=".42" transform="rotate(-25 104 55)"/>
+  </g>
+</svg>
